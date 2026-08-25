@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Tarefas</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-conteudo">
+            <a href="/">Início</a>
+            <a href="{% url 'tarefas' %}">Tarefas</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Bem-vindo! 👋</h1>
+            <p>Esse é o meu primeiro Sistema de Tarefas com Django.</p>
+            <a class="botao" href="{% url 'tarefas' %}">
+                Ver minhas tarefas
+            </a>
+        </section>
+
+        <section class="caixa">
+            <h2>Minha primeira caixa</h2>
+            <p>Estou aprendendo Django, HTML e CSS.</p>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco.</p>
+        </section>
+    </main>
+
+</body>
+</html>
