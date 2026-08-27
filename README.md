@@ -1,6 +1,6 @@
 # Sistema de Tarefas
 
-Sistema web para gerenciamento de tarefas, desenvolvido para praticar programação e desenvolvimento web.
+Sistema web para gerenciamento de tarefas, desenvolvido para praticar programaÃ§Ã£o e desenvolvimento web.
 
 ## Funcionalidades
 
@@ -8,12 +8,12 @@ Sistema web para gerenciamento de tarefas, desenvolvido para praticar programaçã
 - Visualizar tarefas
 - Editar tarefas
 - Excluir tarefas
-- Armazenamento das informações em banco de dados
+- Armazenamento das informaÃ§Ãµes em banco de dados
 
 ## Tecnologias
 
 - Python
-- Flask
+- Django
 - SQLite
 - HTML
 - CSS
@@ -21,8 +21,8 @@ Sistema web para gerenciamento de tarefas, desenvolvido para praticar programaçã
 
 ## Objetivo
 
-Projeto desenvolvido como parte dos meus estudos em Engenharia de Software, com foco em desenvolvimento web e integração entre back-end, banco de dados e interface.
+Projeto desenvolvido como parte dos meus estudos em Engenharia de Software, com foco em desenvolvimento web e integraÃ§Ã£o entre back-end, banco de dados e interface.
 
 ## Autor
 
-João Pedro
+JoÃ£o Pedro
